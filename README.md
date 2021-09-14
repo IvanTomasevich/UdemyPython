@@ -13,9 +13,7 @@ Operador de modulo o resto %
 En orden de precedencia
 ```mermaid
 graph
-A(Parentesis) --> B(Exponente) -->
-C(Multiplicación) --> D(División) -->
-E(Suma) --> F(Resta)
+A(Parentesis) --> B(Exponente) --> C(Multiplicación) --> D(División) --> E(Suma) --> F(Resta)
 ```
 ### Operadores de cadenas
 Operador de concatenación +
