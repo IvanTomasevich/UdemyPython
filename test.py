@@ -1,6 +1,9 @@
-dias_semana = {"lunes":9,"martes":10,"miercoles":11}
-print(dias_semana)
-dias_semana.update({"jueves":12,"viernes":13})
-print(dias_semana)
-for item in dias_semana.items():
-    print (item)
+
+
+print(2, end=',')
+for i in range(3, 100, 2):
+  for j in range(3, int(i ** .5) + 1, 2):
+   if i % j == 0:
+    break
+   else:
+    print(i, end=',')
