@@ -22,24 +22,38 @@ A(Parentesis) --> B(Exponente) --> C(Multiplicación) --> D(División) --> E(Sum
 ### Operadores de cadenas
 
 Operador de concatenación +
+
 Operador de repetición *
 
 ### Operadores de relación
 
 Igual a ==
-Distinto de !=
+
+Distinto de != 
+
 Mayor que >
+
 Menor que <
+
 Mayor o igual que >=
+
 Menor o igual que <=
 
 ### Operadores de asignación
 
 Asignación simple  =
+
 Asignación suma +=
+
 Asignación resta -=
+
 Asignación multiplicación *=
+
 Asignación exponente **=
+
 Asignación división /
+
 Asignación división entera //=
+
 Asignación división mod/resto %=
+
