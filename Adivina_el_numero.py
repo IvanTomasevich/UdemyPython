@@ -7,8 +7,8 @@ def play():
     print("******************** Adivina el numero ********************")
     print("Estoy pensando un numero del 1 al 10")
     print("Adivina cual es!!!")
-    print("Recuerda solo tienes 5 vidas")
-    while vidas < 5:
+    print("Recuerda solo tienes 3 vidas")
+    while vidas < 3:
 
         try:
             adivinanza = int(input("El numero es: "))
@@ -35,7 +35,7 @@ def play():
                 print("Intentalo de nuevo")
                 print()
             vidas += 1
-            print("Vidas= {}/5 ".format(vidas))
+            print("Vidas= {}/3 ".format(vidas))
     else:
         print("ahhh te quedaste sin viditas")
         print("Gracias por jugar!!")

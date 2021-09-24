@@ -145,3 +145,40 @@ await               finally             nonlocal            yield
 ['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'var']
 >>>
 ```
+
+#### Fechas y horas en Python
+
+```
+>>> import datetime
+>>> dir(datetime)
+['MAXYEAR', 'MINYEAR', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', 
+'__name__', '__package__',
+'__spec__', 'date', 'datetime', 'datetime_CAPI', 'sys', 'time', 'timedelta', 'timezone', 'tzinfo']
+>>>
+>>> datetime.datetime.now()
+datetime.datetime(2021, 9, 24, 9, 32, 0, 417811)
+>>> now = datetime.datetime.now()
+>>> now
+datetime.datetime(2021, 9, 24, 9, 32, 19, 957049)
+>>> now.day
+24
+>>> now.minute
+32
+>>> now.year
+2021
+```
+#### links sobre el tema
+
+- [https://strftime.org/](https://strftime.org/)
+
+- [https://pyformat.info/](https://strftime.org/)
+
+
+```
+>>> now
+datetime.datetime(2021, 9, 24, 11, 11, 54, 539680)
+>>> now.strftime("%B %d, %Y")
+'September 24, 2021'
+>>>
+```
+
