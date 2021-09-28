@@ -182,3 +182,65 @@ datetime.datetime(2021, 9, 24, 11, 11, 54, 539680)
 >>>
 ```
 
+### Expresiones Regulares
+ 
+[regexr.com](https://regexr.com/3f4vo)
+Es una web para probar en tiempo real expresiones regulares
+
+[cheatography.com](https://cheatography.com/programming/)
+Es una web donde hay Cheap Sheet de todo (se pueden descargar en PDF)
+
+Character classes
+```
+.	any character except newline
+\w\d\s	word, digit, whitespace
+\W\D\S	not word, digit, whitespace
+[abc]	any of a, b, or c
+[^abc]	not a, b, or c
+[a-g]	character between a & g
+```
+Anchors
+```
+^abc$	start / end of the string
+\b\B	word, not-word boundary
+```
+Escaped characters
+```
+\.\*\\	escaped special characters
+\t\n\r	tab, linefeed, carriage return
+```
+Groups & Lookaround
+```
+(abc)	capture group
+\1	backreference to group #1
+(?:abc)	non-capturing group
+(?=abc)	positive lookahead
+(?!abc)	negative lookahead
+```
+Quantifiers & Alternation
+```
+a*a+a?	0 or more, 1 or more, 0 or 1
+a{5}a{2,}	exactly five, two or more
+a{1,3}	between one & three
+a+?a{2,}?	match as few as possible
+ab|cd	match ab or cd
+```
+
+### Crear y escribir archivos
+#### Ref
+```
+'r' open for reading (default)
+
+'w' open for writing, truncating the file first
+
+'x' open for exclusive creation, failing if the file already exists
+
+'a' open for writing, appending to the end of the file if it exists
+
+'b' binary mode
+
+'t' text mode (default)
+
+'+' open for updating (reading and writing)
+```
+
