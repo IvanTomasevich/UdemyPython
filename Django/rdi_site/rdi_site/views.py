@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+# from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def hola(request):
-    return HttpResponse("Hola Dejango!! Hello, world. You're at the polls index.")
+    return render(request, 'home.html')
